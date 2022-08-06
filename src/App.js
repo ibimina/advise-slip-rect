@@ -1,5 +1,4 @@
 
-import "./App.css";
 import { useFetch } from "./hooks/useFetch";
 
 function App() {
