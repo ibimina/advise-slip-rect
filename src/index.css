@@ -24,13 +24,13 @@ body,
 }
 .App {
   max-width: 350px;
-  padding: 3em 1em;
+  padding: 2em 1em;
   border-radius: 5px;
   background-color: hsl(217, 19%, 24%);
   text-align: center;
   position: relative;
   width: 100%;
-  margin: 1em;
+  margin:0 1em;
 }
 h1 {
   color: hsl(150, 100%, 66%);
@@ -51,19 +51,20 @@ h1 {
 .border {
   background-image: url("./images/pattern-divider-mobile.svg");
   padding: 0.5em;
-  margin: 1em 0;
+  margin: 2em 0 0;
 }
 blockquote {
   color: hsl(0, 16%, 83%);
+  margin: 1em;
 }
 .dice {
   height: 50px;
   width: 50px;
   border-radius: 40%;
   background-color: hsl(150, 100%, 66%);
-  position: absolute;
-  left: 40%;
-  bottom: -2rem;
+  position: relative;
+  
+  bottom: -3.5rem;
   border: 0;
   background-image: url("./images/icon-dice.svg");
 }
@@ -81,7 +82,6 @@ blockquote {
     background-image: url("./images/pattern-divider-desktop.svg");
   }
   .dice {
-    left: 44%;
     cursor: pointer;
   }
 }
