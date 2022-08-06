@@ -82,5 +82,6 @@ blockquote {
   }
   .dice {
     left: 44%;
+    cursor: pointer;
   }
 }

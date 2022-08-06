@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-How to fetch data using api
+How to fetch data using in reactjs with Api 
 
 
 ## Author
