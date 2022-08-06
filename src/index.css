@@ -1,13 +1,86 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+h1,
+blockquote,
+p,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 16px;
+  background-color: hsl(218, 23%, 16%);
+  line-height: 1.5;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  max-width: 350px;
+  padding: 3em 1em;
+  border-radius: 5px;
+  background-color: hsl(217, 19%, 24%);
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin: 1em;
+}
+h1 {
+  color: hsl(150, 100%, 66%);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.8px;
+}
+.sr-only {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+}
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.border {
+  background-image: url("./images/pattern-divider-mobile.svg");
+  padding: 0.5em;
+  margin: 1em 0;
+}
+blockquote {
+  color: hsl(0, 16%, 83%);
+}
+.dice {
+  height: 50px;
+  width: 50px;
+  border-radius: 40%;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  left: 40%;
+  bottom: -2rem;
+  border: 0;
+  background-image: url("./images/icon-dice.svg");
+}
+.dice:active,
+.dice:focus {
+  box-shadow: 0 0 80px 10px hsl(150, 100%, 62%);
+  opacity: 1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (min-width: 45rem) {
+  .App {
+    max-width: 500px;
+  }
+  .border {
+    background-image: url("./images/pattern-divider-desktop.svg");
+  }
+  .dice {
+    left: 44%;
+  }
 }
