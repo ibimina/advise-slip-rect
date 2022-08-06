@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/advise-slip-rect/static/css/main.4b8a7de1.css",
+    "main.css": "/advise-slip-rect/static/css/main.d39ccb94.css",
     "main.js": "/advise-slip-rect/static/js/main.0f509966.js",
     "index.html": "/advise-slip-rect/index.html",
     "static/media/icon-dice.svg": "/advise-slip-rect/static/media/icon-dice.08691e4c24c11b5ba564.svg",
     "static/media/pattern-divider-desktop.svg": "/advise-slip-rect/static/media/pattern-divider-desktop.ed9685263f6b47d21c88.svg",
     "static/media/pattern-divider-mobile.svg": "/advise-slip-rect/static/media/pattern-divider-mobile.aca38726412164df099c.svg",
-    "main.4b8a7de1.css.map": "/advise-slip-rect/static/css/main.4b8a7de1.css.map",
+    "main.d39ccb94.css.map": "/advise-slip-rect/static/css/main.d39ccb94.css.map",
     "main.0f509966.js.map": "/advise-slip-rect/static/js/main.0f509966.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b8a7de1.css",
+    "static/css/main.d39ccb94.css",
     "static/js/main.0f509966.js"
   ]
 }
